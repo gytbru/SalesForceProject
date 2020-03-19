@@ -1,0 +1,2 @@
+<apex:page standardController="MyTask__c" extensions="UpdateMyTaskComment" action="{!changeComm}" >
+</apex:page>

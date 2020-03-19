@@ -1,0 +1,8 @@
+<apex:page standardController="MyTask__c" extensions="ChangeMyTaskComment" tabStyle="MyTask__c">
+	<apex:form >
+    	<apex:pageBlock title="Change My Task Comment">
+			<apex:inputField value="{!task.Comment__c}"/>
+ 			<apex:commandButton action="{!save}" value="Save"/>
+     	</apex:pageBlock>    
+    </apex:form>
+</apex:page>

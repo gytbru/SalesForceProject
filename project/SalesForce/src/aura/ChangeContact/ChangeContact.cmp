@@ -1,0 +1,7 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId" >
+	<lightning:recordEditForm recordId="{!v.recordId}" objectApiName="MyTask__c">
+                <lightning:messages />
+                <lightning:inputField fieldName="Contact__c"/>
+                <lightning:button type="submit" name="submit" label="Save"/>
+	</lightning:recordEditForm>
+</aura:component>
